@@ -1,24 +1,39 @@
 img{
     width: 100%;
+    height: 300px;
     object-fit: cover;
+    overflow: hidden;
     
-}
-.moviecard_img{
-    width: 100%;
-}
-.moviecard_info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
- 
-}
-h4{
-    font-size: 1rem;
-    font-weight: 600;
-}
-.moviecard{
-    background-color: #efefef;
-    border-radius: 10px;
-    width: 300px;
-}
+    
+    }
+    .card_item{
+        width: 100%;
+     
+    }
+    .card_info{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+       
+    }
+    .card_info2{
+        display: flex;
+        align-items: center;   
+    }
+    
+    .card_info1>h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .card_info2>.MuiSvgIcon-root{
+       margin-right: 10px;
+    }
+    .card_info2>.MuiSvgIcon-root:hover{
+        color: grey;
+     }
+    .card{
+        max-width: 340px;
+        box-shadow: 1px 1px 4px 0px rgba(60, 58, 58, 0.75);
+        border-radius: 10px;
+        margin: 0 10px;
+    }
