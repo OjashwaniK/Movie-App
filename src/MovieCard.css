@@ -1,0 +1,24 @@
+img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.moviecard_img{
+    width: 100%;
+}
+.moviecard_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+ 
+}
+h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.moviecard{
+    background-color: #efefef;
+    border-radius: 10px;
+    width: 300px;
+}
